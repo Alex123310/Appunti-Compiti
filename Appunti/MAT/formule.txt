@@ -1,0 +1,2 @@
+Sen(A+-B)=SinACosB+-CosASinB
+Sen(A+-B)=CosACosB-+CosASinB
