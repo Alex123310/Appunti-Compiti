@@ -1,4 +1,5 @@
-#include parteMemoria
+#include "tipi.h"
+
 parteMemoria creaMemoria()
 {
     parteMemoria mem[8];
@@ -43,4 +44,5 @@ parteMemoria creaMemoria()
     mem[7].indBase=57344;
     mem[7].dimensione=8;
     mem[7].occupata=0;
+    
 }
