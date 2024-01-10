@@ -1,7 +1,6 @@
 typedef struct
 {
-    int nPartizione;
-    int indBase;
     int dimensione;
     int occupata;
+    int memoria[6];
 }parteMemoria;
