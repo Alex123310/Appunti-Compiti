@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //64k 5k 10k
 #include "tipi.h"
 #include <stdlib.h>
@@ -60,6 +61,12 @@ parteMemoria creaMemoria()
     mem[7].dimensione=8;
     mem[7].occupata=0;
 =======
+=======
+#include "tipi.h"
+
+parteMemoria creaMemoria()
+{
+>>>>>>> 32a9237b626fdad21396b0a537662e1a96100b1d
     parteMemoria mem;
     int temp,i;
     while (temp < 6000)
@@ -82,9 +89,15 @@ parteMemoria creaMemoria()
             mem.occupata = mem.occupata + temp;
         }
     }
+<<<<<<< HEAD
+>>>>>>> 32a9237b626fdad21396b0a537662e1a96100b1d
+=======
 >>>>>>> 32a9237b626fdad21396b0a537662e1a96100b1d
     
 
     return mem;
 }
+<<<<<<< HEAD
 >>>>>>> e0878c3f09ff7c40168d84e69cb2a13cdc81c40b
+=======
+>>>>>>> 32a9237b626fdad21396b0a537662e1a96100b1d
