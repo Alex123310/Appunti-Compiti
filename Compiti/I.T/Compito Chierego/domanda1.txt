@@ -1,0 +1,50 @@
+AGORITMO B
+PROCEDURA main()
+v: PUNTATORE A INT
+i,n: INT
+pp,kp,kd,sum : INT
+md: REAL
+INIZIO
+pp <-- 0
+kp <-- 1
+kd <-- 0
+md <-- 0
+RIPETI
+	Leggi(n)
+FINCHE(n ≥ 2)
+
+alloca(v,n * DimensioneDi(INT))
+SE (v ≠ NULL )
+	ALLORA
+		PER (i <-- 0 A i ≥ n)
+			RIPETI
+				Leggi( *(v+i) )
+			FINCHE ( *(v+i) ≥ 0 )
+
+			SE ( ( (*(v+i)) MOD 2) = 0 )
+				ALLORA
+					kp <-- kp + 1
+					pp <-- pp * (*(v+i))
+				ALTRIMENTI
+					kd <-- kd+1
+					sum <-- sum + (*(v+i))
+			FINE SE
+			SE (kd ≠ 0)
+				ALLORA
+					md = sum / kd
+			FINE SE
+			SE ( kp = 0 )
+				ALLORA
+					pp <-- 0
+			FINE SE
+			i=i+1
+		FINE PER
+		Scrivi(pp)
+		Scrivi(kp)
+		Scrivi(kd)
+		Scrivi(md)
+	ALTRIMENTI
+		Scrivi("Errore");
+FINE SE
+FINE
+      
