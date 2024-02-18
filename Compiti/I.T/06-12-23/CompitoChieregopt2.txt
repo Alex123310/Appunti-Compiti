@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, int argv[])
+{
+int n;
+FILE* fp,*fppnew;
+
+fp = fopen("test.txt","r");
+fpnew = fopen("testnew.txt","w");
+
+while(!(feof(fp)))
+{
+	fscanf(fp,"%d\n",&n);
+	n = n/2;
+	fprintf(fpnew,"%d\n",n);
+}
+fclose(fp);
+fclose(fpnew);
+return 0;
+}
