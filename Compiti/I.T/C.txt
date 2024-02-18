@@ -1,0 +1,70 @@
+3)
+#include <string.h>
+......
+typedef struct
+{
+	char Codice [20];
+	char Marca [30];
+	char Descrizione[20];
+}DatiProdotto;
+typedef struct
+{
+	DatiProdotto DatiProd;
+	float Costo;
+	int NumPrezzi;
+}Prodotto;
+
+......
+
+Prodotto rec1;
+Prodotto magazzino[30];
+rec1.Costo = magazzino[0].Costo;
+......
+prodotto* p;
+p = (Prodotto*) malloc(20 * sizeof(Prodotto));
+free(p);
+......
+for(i=0; i < n,i++)
+{
+	do
+	{
+		scanf((p+i) -> Datiprod.Codice);
+	}
+	while ( (*(p+i).DatiProd.Codice == "") && (strlen(*(p+i).DatiProd.Codice) > 20) )
+	.....
+	do
+	{
+		scanf( (p+i) -> NumPezzi )
+	}
+	while ( ( *(p+i).NumPezzi > 50 ) && (* (p+i).NumPezzi < 250) )
+}
+
+
+
+
+
+2)
+
+ALGORITMO B
+PROCEDURA main()
+v : PUNTATORE A VETTORE DI REAL
+n : INT
+m: REAL
+i: INT
+
+INIZIO
+RIPETI:
+	Leggi(n)
+FINCHE n > 1
+
+Alloca(v,DimensioneDi(REAL) * n)
+
+PER i da 0 a n-1
+RIPETI:	
+	Leggi((v+i))
+FINCHE (*(v+i)) > 0
+i <- i+1
+se(*(v+i) MO )
+media <- me
+i <- i+1
+FINE PER

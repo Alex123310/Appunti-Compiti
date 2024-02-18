@@ -1,0 +1,12 @@
+Modello ISO/OSI 
+
+Livello 1 Fisico (cavi,routher)
+Livello 2 Collegamento (trasferimento informazione sulla rete locale)
+Livello 3 Rete (Suddivisione dati mittente, Riassemblamento Dati Destinatario)
+	Quando aviene la trasmissione su due reti differenti si suddividono i dati dal mittente
+	e riassemblando sul destinatario quando avviene la trasmissione tra 
+	quando avviene su una stessa rete invece il livello non e necessario.
+
+Livello 4 Transporto (Trasferire Dati 
+
+Conessione TCP/IP
