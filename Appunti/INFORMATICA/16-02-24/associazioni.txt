@@ -1,5 +1,0 @@
-una lasca (detto anche aggregazione)
-una stretta (detta anche composizione)
-
-
-esempio: un form, text box bottoni ecc sono tutti stretti dato che appartengono alla stessa classe

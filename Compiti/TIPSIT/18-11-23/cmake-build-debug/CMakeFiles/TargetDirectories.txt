@@ -1,3 +1,0 @@
-C:/Users/aless/Desktop/Compiti/Appunti-Compiti/Compiti/TIPSIT/18-11-23/cmake-build-debug/CMakeFiles/18_11_23.dir
-C:/Users/aless/Desktop/Compiti/Appunti-Compiti/Compiti/TIPSIT/18-11-23/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/aless/Desktop/Compiti/Appunti-Compiti/Compiti/TIPSIT/18-11-23/cmake-build-debug/CMakeFiles/rebuild_cache.dir
