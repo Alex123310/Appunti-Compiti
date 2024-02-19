@@ -1,5 +1,3 @@
-lIBR/ filter=lfs diff=lfs merge=lfs -text
-lIBR/Noi[[:space:]]c'eravamo.pdf filter=lfs diff=lfs merge=lfs -text
-lIBR/10306_-_Nuovo_Sistemi_e_Reti_Volume_1.pdf filter=lfs diff=lfs merge=lfs -text
-lIBR/Bit[[:space:]]by[[:space:]]Bit_[[:space:]]English[[:space:]]for[[:space:]]Information[[:space:]]and[[:space:]]Communications[[:space:]]Technology.pdf filter=lfs diff=lfs merge=lfs -text
-lIBR/mosca[[:space:]]inizio[[:space:]]2k23.docx filter=lfs diff=lfs merge=lfs -text
+version https://git-lfs.github.com/spec/v1
+oid sha256:64f93c1da6ea908c538b3d353a3a5085449061b2c3697f983f24aae2e34ae1e8
+size 841
