@@ -1,0 +1,90 @@
+fibra multimodale :  connettore sc
+monomodale : st 
+
+
+tight(per ambienti interni)
+{
+	multimonofibra = la connessione tra gli apparati attivi
+	{
+	rivestimento da 2 a 3 mm
+		nucleo centrale dielettrico 
+		rivestiti da una guaina protettiva
+	}
+	multifibra = per le dorsali 
+	{
+		meno robusti rivestimento di 0.9
+		conengono piu fibre
+	}
+}
+
+loose = resistente anche all aqua
+
+slotted core = per le installazioni esterne perche contengono gel
+
+per collegare fibra bisogna pulire accuratamente perche anche polvere influenza il segnare
+
+3 componenti
+
+trasmettitore = led o laser
+ricevitore
+mezzo trasmissivo
+
+le fibre non sono sensibili al cross talk 
+
+pero il segnale si puo attenuare per
+{
+	la dispersione per delle irregolarita nella fibra che causa lo scattering
+	impurita chimiche assorbimento 
+	problemi di terminazione
+	
+}
+
+visual fault locator 
+{
+	raggio laser visibile all occhio umano per vedere i guasti
+	
+}
+olts
+{
+	economico: si occupa di verificare la perdita di segnale 
+}
+
+otdr
+{
+	misura la perdita totale del collegamento (link loss)
+	ed e ingrado di indivuare il punto del problema
+}
+
+lunghezza d'onda (lambda) calcolata lunghezza di 													propagazione/frequenza
+
+leggi di snell per calcolare la propagazione
+
+3 leggi
+{
+	1: tutti i raggi riflessi e rifratti fanno parte di un solo e unico piano (si puo usare geometria piana invece di 3d)
+	2: l'angolo incidente alla superfice di separazione e uguale all angolo riflesso
+	3: rapporto tra indice di separazione 
+}
+
+rifleessioen totale
+{
+	angolo raggio rifratto =  90 gradi
+}
+quando l'angolo di  incidenza incontra l'angolo critico c'e riflessione totale
+
+/*efficenza dipende da apertura numerica = n esterno * seno angolo limite*/				angolo  limite = arcsin(n2/21)
+
+
+classificazione
+
+monomodale = percorso ha un solo modo
+{
+	
+}
+multimodali = piu modi
+{
+	hanno  il problema della dispersione intermodale
+	{
+		velocita limitata
+	}
+}
