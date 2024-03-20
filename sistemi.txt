@@ -63,10 +63,11 @@ leggi di snell per calcolare la propagazione
 {
 	1: tutti i raggi riflessi e rifratti fanno parte di un solo e unico piano (si puo usare geometria piana invece di 3d)
 	2: l'angolo incidente alla superfice di separazione e uguale all angolo riflesso
-	3: rapporto tra indice di separazione 
+	3: rapporto tra indice di separazione 				SINangoloincidenzza/sinraggiorigtatto = n2/n1
+														
 }
 
-rifleessioen totale
+riflessione totale
 {
 	angolo raggio rifratto =  90 gradi
 }
