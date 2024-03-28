@@ -1,0 +1,18 @@
+A SEARCH engine is a website or software that allows a user to search 
+for different websites through its interface
+
+
+a web spider is a software bot that crawls the web to find and 
+index the url of different websites
+
+
+different algorithms are called to search the page index and give users
+results based off of the keywords and logical operators given by the user
+
+
+pages can be found using multiple sentences single words, important keywords
+or logical operators such as and xor xnor
+
+
+the search results appear based on which are best fits for the 
+search query or keywords
