@@ -1,0 +1,36 @@
+FileSystem
+
+1) definizione e elementi
+	path....
+	
+2) HDD, SDD
+3) Allocazione 
+	Concat
+	Indice
+	linkata()
+	albero
+	
+4) File e Directory, ops e verifiche 
+
+
+INGEGNERIA DEL SOFTWARE
+1) definizione ing soft
+	crisi software
+2) ciclo di vita del software 
+3) modelli sviluppo software
+	cascata
+	spirale
+	metologie agili (scrum)
+
+4) uml (diagrammi principali)
+	USECASE & Class & Sequence
+	OOP
+5) Pattern
+	definizione:
+	caratteristiche
+	
+	
+ANALISI DEI REQUISITI
+
+1) Requisiti con tipi
+2) Usecase 

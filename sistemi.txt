@@ -78,9 +78,7 @@ quando l'angolo di  incidenza incontra l'angolo critico c'e riflessione totale
 
 classificazione
 
-monomodale = percorso ha un solo modo
-{
-	
+monomodale = percorso ha un solo modow
 }
 multimodali = piu modi
 {

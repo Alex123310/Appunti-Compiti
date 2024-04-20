@@ -1,0 +1,8 @@
+l'esponente da dare alla base per ottenere l'argomento
+
+
+1) Log a(b^k) = k log a (b) 			log 2 (3^2) = 2log2 (3)
+
+2) loga(b*c) = loga(b) + loga^c			log 3x = log2 (3) + log2 
+
+3)
