@@ -1,0 +1,34 @@
+1b)
+public set_Iva(VAL I : REAL)
+	Iva <- I
+public set_Prezzo(VAL P : REAL)
+	Prezzo <- P
+	
+public get_Iva()
+	RITORNA Iva
+public get_Prezzo()
+	RITORNA Prezzo
+public get_PrezzoIvato()
+	RITORNA PrezzoIvato
+
+1c)
+
+class Abito
+{
+	private:
+		float Iva;
+		float Prezzo;
+		float PrezzoIvato;
+	public:
+		void set_Iva(float I);
+		void set_Prezzo(float P);
+		float get_Iva();
+		float get_Prezzo();
+		float get_PrezzoIvato();
+	Abito()
+	{
+		set_Prezzo();
+		set_Iva();
+		PrezzoIvato = Prezzo + Iva;
+	}
+}
